@@ -1,0 +1,133 @@
+.weather-article {
+  background-color: #fff;
+  margin: 20px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.weather-article__tempIcon {
+  background-color: #feb020;
+  color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-article__tempIcon h2 {
+  margin-bottom: -5px;
+  font-size: 20px;
+}
+
+.weather-article__icon img {
+  width: 100px;
+}
+
+.weather-article__details {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.weather-article__details h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-right: 20px;
+}
+
+.weather-article__detailsInfo{
+  font-size: 14px;
+}
+
+.weather-article__detailsInfo span{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.weather-article__source {
+  background-color: #feb020;
+  color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-article__source a {
+  text-decoration: none;
+}
+
+.weather-article__source a:hover {
+  color: #da2c2c;
+}
+
+.polution-article {
+  background-color: #fff;
+  margin: 20px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.polution-article__heading {
+  background-color: rgb(36, 143, 36);
+  color: #333;
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.polution-article__detailsInfo {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.polution-article__airindex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.polution-article__source {
+  background-color: rgb(36, 143, 36);
+  color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.polution-article__source a {
+  text-decoration: none;
+}
+
+.polution-article__source a:hover {
+  color: #da2c2c;
+}
+
+.breaking-article {
+  background-color: #fff;
+  margin: 20px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.breaking-article__heading {
+  background-color: #da2c2c;
+  padding: 10px 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.breaking-article__info p {
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.breaking-article__info a {
+  color: #000;
+  text-decoration: none;
+}
+
+.breaking-article__info a:hover {
+  color: #da2c2c;
+}

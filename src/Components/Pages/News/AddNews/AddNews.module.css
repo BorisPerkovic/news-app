@@ -1,0 +1,78 @@
+
+.add-news__form {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px 20px;
+}
+
+.add-news__form h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.add-news__form input {
+  width: 100%;
+  padding: 10px;
+  margin: 2px 0px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-news__form select {
+  width: 100%;
+  padding: 10px;
+  margin: 2px 0px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-news__form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 2px 0px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-news__form label {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.msg-error {
+  padding: 40px 0px;
+  text-align: center;
+  color: #da2c2c;
+}
+
+.add-news__form button {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #cc0000;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+
+.add-news__form button:hover {
+  background-color: #da2c2c;
+  cursor: pointer;
+}
+
+
+.add-news__form img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.invalid label {
+  color: #cc0000;
+  margin-top: 15px;
+}
+
+.input-message {
+  color: #cc0000;
+}

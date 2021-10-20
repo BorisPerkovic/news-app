@@ -1,0 +1,33 @@
+.header {
+  background-color: #cc0000;
+  padding: 5px 0px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__wrapper h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.header__wrapper a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+  margin-left: 15px;
+  border: 1px solid #da2c2c;
+  border-radius: 2px;
+}
+
+.header__wrapper a:hover {
+  background-color: #da2c2c;
+  transition: all 0.3s ease-in-out;
+}
+
+.active-route {
+  background-color: #da2c2c;
+}

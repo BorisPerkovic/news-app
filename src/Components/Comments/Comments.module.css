@@ -1,0 +1,24 @@
+.comments-aticle {
+  background-color: #fff;
+  margin: 20px 0px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.comments-aticle p {
+  margin-bottom: 10px;
+}
+
+.comments-aticle button {
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #cc0000;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+
+.comments-aticle button:hover {
+  background-color: #da2c2c;
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+
+.modal {
+  width: 50%;
+  padding: 30px;
+  position: relative;
+  top: 30vh;
+  left: 25%;
+  background-color: #da2c2c;
+  color: #fff;
+  position: fixed;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.modal-heading {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+.modal-body {
+  padding: 15px 0px;
+}
+
+.modal i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.timesCircle{
+  color: #fff;
+}

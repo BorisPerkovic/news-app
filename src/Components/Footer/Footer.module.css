@@ -1,0 +1,36 @@
+.footer {
+  background-color: #cc0000;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+  margin-top: -60px;
+}
+
+.footer-info {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 1.4rem;
+}
+
+.github a:hover {
+  color: #000;
+}
+
+.linkedin a:hover {
+  color: blue;
+}
+
+.website a:hover {
+  color: red;
+}
