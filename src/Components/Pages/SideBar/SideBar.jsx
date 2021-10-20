@@ -7,7 +7,7 @@ import WeatherWidget from "../../WeatherWidget/WeatherWidget";
 const SideBar = () => {
 
   const location = useLocation();
-  const path = location.pathname === "/news-app/headlines";
+  const path = location.pathname === "/news-app";
 
   return (
     <Fragment>
